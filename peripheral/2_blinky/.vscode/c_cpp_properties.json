@@ -1,0 +1,59 @@
+{
+    "env": {
+        "nRF5_SDK": "C:\\2_nRF5_SDK_15.2.0_9412b96",
+        "ProjectFolder": "${workspaceFolder}\\pca10040\\s132\\armgcc",
+        "sdkConfigFolder": "${workspaceFolder}\\pca10040\\s132\\config"
+    },
+
+    "configurations": [{
+        "name": "pca10040\\s132",
+        "includePath": [
+            "${workspaceFolder}\\**",
+            "${workspaceFolder}\\pca10040\\s132\\config",
+            "${nRF5_SDK}\\components\\**",
+            "${nRF5_SDK}\\components",
+            "${nRF5_SDK}\\components\\libraries\\experimental_section_vars",
+            "${nRF5_SDK}\\modules\\nRF5_x\\mdk",
+            "${nRF5_SDK}\\modules\\nRF5_x\\hal",
+            "${nRF5_SDK}\\components\\libraries\\balloc",
+            "${nRF5_SDK}\\components\\libraries\\delay",
+            "${nRF5_SDK}\\integration\\nRF5_x",
+            "${nRF5_SDK}\\components\\libraries\\bsp",
+            "${nRF5_SDK}\\components\\drivers_nRF5_\\nRF5__soc_nosd",
+            "${nRF5_SDK}\\components\\libraries\\strerror",
+            "${nRF5_SDK}\\components\\boards",
+            "${nRF5_SDK}\\components\\toolchain\\cmsis\\include",
+            "${nRF5_SDK}\\modules\\nRF5_x",
+            "${nRF5_SDK}\\components\\libraries\\util",
+            "${nRF5_SDK}\\components\\libraries\\fifo",
+            "${nRF5_SDK}\\components\\libraries\\uart",
+            "${nRF5_SDK}\\integration\\nRF5_x\\legacy",
+            "${nRF5_SDK}\\components\\libraries\\delay",
+            "${nRF5_SDK}\\modules\\nRF5_x\\drivers\\include"
+        ],
+        "defines": [
+            "_DEBUG",
+            "UNICODE",
+            "_UNICODE",
+            "BOARD_SPARKFUN_nRF5_52840_MINI",
+            "BSP_DEFINES_ONLY",
+            "nRF5_52840_XXAA",
+            "DCONFIG_NFCT_PINS_AS_GPIOS",
+            "BOARD_PCA10040",
+            "CONFIG_GPIO_AS_PINRESET",
+            "FLOAT_ABI_HARD",
+            "nRF5_52",
+            "nRF5_52832_XXAA",
+            "nRF5_52_PAN_74",
+            "nRF5__SD_BLE_API_VERSION=6",
+            "S132",
+            "SOFTDEVICE_PRESENT",
+            "SWI_DISABLE0"
+        ],
+        "compilerPath": "C:\\Arm_GNU_Toolchain_11.2\\bin\\arm-none-eabi-gcc",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "windows-gcc-arm"
+    }],
+    "version": 4
+}

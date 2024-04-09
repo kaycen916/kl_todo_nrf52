@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+      "nordic_common.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "cortex-debug.JLinkGDBServerPath": "C:\\Program Files\\SEGGER\\JLink\\JLinkGDBServer.exe",
+  }
